@@ -1,0 +1,26 @@
+enum Clusters {
+  Arrakis,
+  Betelgeuse,
+  Canopus,
+  Denebola,
+  Etamin,
+  Fomalhaut,
+  Gomeisa,
+  Hoedus,
+  Izar,
+  Jupiter,
+  Kornephoros,
+  Lesath,
+  Miaplacidus,
+  Nashira,
+  Procyon,
+  Qailertang,
+  Rigel,
+  Sirius,
+  Tabit,
+  Unkai,
+  Vega,
+  Zaurak
+}
+
+export default Clusters;
