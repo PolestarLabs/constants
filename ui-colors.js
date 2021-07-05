@@ -41,11 +41,11 @@ const Interface = {
   yellow:   Branding.yellow,
   blue:     Branding.blue,
   //aliases
-  danger:   red,
-  error:    red,
-  warning:  yellow,
-  success:  green,
-  info:     blue,
+  danger:   this.red,
+  error:    this.red,
+  warning:  this.yellow,
+  success:  this.green,
+  info:     this.blue,
   
   primary:    Branding.pink,
   secondary:  Branding.purple,
