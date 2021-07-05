@@ -2,7 +2,7 @@
 const  {createHybridColorString:HCS} = require("./HybridColorString");
 module.exports = {
 
-  RarityColors = {
+  RarityColors : {
     C:  HCS("#928fa8"),
     U:  HCS("#63b361"),
     R:  HCS("#3646bf"),
@@ -11,7 +11,7 @@ module.exports = {
     XR:  HCS("#981f1f"),
   },
   
-  Branding = {
+  Branding : {
     pink:     HCS("#FF5599"),
     grape:    HCS("#AA66FF"),
     purple:   HCS("#AA66FF"),
@@ -31,13 +31,13 @@ module.exports = {
     
   },
   
-  Misc = {
+  Misc : {
     salmon:  "#FF8580",
     orange:  "#FF8045",
     lime:    "#90F075",
   },
 
-  Interface = {
+  Interface : {
     red:      HCS("#FC3050"),
     green:    Branding.green2,
     yellow:   Branding.yellow,
