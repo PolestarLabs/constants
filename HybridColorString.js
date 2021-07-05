@@ -1,12 +1,10 @@
 class HybridColorString extends String {
-    numeric: number;
-    constructor(colorHexOrRGB: Array<number|string> | string) {
+    numeric;
+    constructor(colorHexOrRGB) {
         let HEX = "000000";
         if (colorHexOrRGB instanceof Array){
             HEX = colorHexOrRGB.map((v,i,a)=> {
-                //@ts-ignore
                 v = Math.min(Math.abs(parseInt(v)),255);
-                //@ts-ignore
                 return parseInt(v,10) * Math.pow( 0x100, a.length - i - 1 ) || 0;
             }).reduce((a,p)=>a+p,0).toString(16);
         }else{
@@ -18,8 +16,8 @@ class HybridColorString extends String {
   }
 }
 
-function createHybridColorString(s: string | Array<number|string> ){
+function createHybridColorString(s){
     return new HybridColorString(s)
 }
 
-export default  createHybridColorString;
+module.exports = createHybridColorString;
