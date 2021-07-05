@@ -7,7 +7,7 @@ const RarityColors = {
   SR:  HCS("#8827ce"),
   UR:  HCS("#dc5c50"),
   XR:  HCS("#981f1f"),
-},
+}
 
 const Branding = {
   pink:     HCS("#FF5599"),
@@ -27,13 +27,13 @@ const Branding = {
   black:    HCS("#1B1B2B"),  
   dark:     HCS("#2B2B3F"),
   
-},
+}
 
 const Misc = {
   salmon:  "#FF8580",
   orange:  "#FF8045",
   lime:    "#90F075",
-},
+}
 
 const Interface = {
   red:      HCS("#FC3050"),
