@@ -1,5 +1,5 @@
 //import {createHybridColorString as HCS} from "./HybridColorString";
-const  {createHybridColorString:HCS} = require("./HybridColorString");
+const  HCS = require("./HybridColorString");
 module.exports = {
 
   RarityColors : {
