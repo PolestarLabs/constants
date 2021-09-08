@@ -8,6 +8,7 @@ export enum RarityColors {
   XR=  "#981f1f",
 }
 
+
 export enum Branding {
   pink=     "#FF5599",
   grape=    "#AA66FF",
