@@ -1,6 +1,6 @@
 {
   "name": "@polestar/constants",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Pollux Constants",
   "main": "index.js",
   "types": "index.ts",
