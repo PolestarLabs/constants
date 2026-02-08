@@ -1,0 +1,30 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var Clusters;
+(function (Clusters) {
+    Clusters[Clusters["Arrakis"] = 0] = "Arrakis";
+    Clusters[Clusters["Betelgeuse"] = 1] = "Betelgeuse";
+    Clusters[Clusters["Canopus"] = 2] = "Canopus";
+    Clusters[Clusters["Denebola"] = 3] = "Denebola";
+    Clusters[Clusters["Enceladus"] = 4] = "Enceladus";
+    Clusters[Clusters["Fomalhaut"] = 5] = "Fomalhaut";
+    Clusters[Clusters["Gomeisa"] = 6] = "Gomeisa";
+    Clusters[Clusters["Hoedus"] = 7] = "Hoedus";
+    Clusters[Clusters["Izar"] = 8] = "Izar";
+    Clusters[Clusters["Jupiter"] = 9] = "Jupiter";
+    Clusters[Clusters["Kornephoros"] = 10] = "Kornephoros";
+    Clusters[Clusters["Lesath"] = 11] = "Lesath";
+    Clusters[Clusters["Miaplacidus"] = 12] = "Miaplacidus";
+    Clusters[Clusters["Nashira"] = 13] = "Nashira";
+    Clusters[Clusters["Orion"] = 14] = "Orion";
+    Clusters[Clusters["Procyon"] = 15] = "Procyon";
+    Clusters[Clusters["Qailertang"] = 16] = "Qailertang";
+    Clusters[Clusters["Rigel"] = 17] = "Rigel";
+    Clusters[Clusters["Sirius"] = 18] = "Sirius";
+    Clusters[Clusters["Tabit"] = 19] = "Tabit";
+    Clusters[Clusters["Unkai"] = 20] = "Unkai";
+    Clusters[Clusters["Vega"] = 21] = "Vega";
+    Clusters[Clusters["Zaurak"] = 22] = "Zaurak";
+})(Clusters || (Clusters = {}));
+exports.default = Clusters;
+//# sourceMappingURL=clusters.js.map
