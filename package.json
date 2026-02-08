@@ -4,6 +4,17 @@
   "description": "Pollux Constants",
   "main": "index.js",
   "types": "index.ts",
+  "exports": {
+    ".": "./index.js",
+    "./clusters": "./clusters.js",
+    "./countries": "./countries.js",
+    "./discoin": "./discoin.js",
+    "./lootbox": "./lootbox.js",
+    "./shop": "./shop.js",
+    "./timers": "./timers.js",
+    "./ui-colors": "./ui-colors.js",
+    "./league.json": "./league.json"
+  },
   "scripts": {
     "test": "npx tsc -p tsconfig.json --noEmit true",
     "build": "npx tsc -p tsconfig.json",
