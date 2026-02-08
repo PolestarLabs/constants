@@ -18,7 +18,8 @@
   "scripts": {
     "test": "npx tsc -p tsconfig.json --noEmit true",
     "build": "npx tsc -p tsconfig.json",
-    "prepare": "npm run build"
+    "prepare": "npm run build",
+    "postinstall": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -30,8 +31,10 @@
     "url": "https://github.com/PolestarLabs/constants/issues"
   },
   "homepage": "https://github.com/PolestarLabs/constants#readme",
-  "devDependencies": {
-    "@types/node": "^15.12.2",
+  "dependencies": {
     "typescript": "4.9.5"
+  },
+  "devDependencies": {
+    "@types/node": "^15.12.2"
   }
 }
